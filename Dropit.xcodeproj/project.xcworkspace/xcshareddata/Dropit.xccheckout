@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BBE334EF-DD42-4E13-9438-1F673DFCB71B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Dropit</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BFB5E04B89B6DD3F6A700EF778BEF4B22A9F44EE</key>
+		<string>https://github.com/omarfaruqe/Dropit.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Dropit.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BFB5E04B89B6DD3F6A700EF778BEF4B22A9F44EE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/omarfaruqe/Dropit.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BFB5E04B89B6DD3F6A700EF778BEF4B22A9F44EE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BFB5E04B89B6DD3F6A700EF778BEF4B22A9F44EE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Dropit</string>
+		</dict>
+	</array>
+</dict>
+</plist>
