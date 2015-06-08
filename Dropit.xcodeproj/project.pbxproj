@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		428542261B26035900CE372D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428542251B26035900CE372D /* AppDelegate.swift */; };
-		428542281B26035900CE372D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428542271B26035900CE372D /* ViewController.swift */; };
 		4285422B1B26035900CE372D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428542291B26035900CE372D /* Main.storyboard */; };
 		4285422D1B26035900CE372D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4285422C1B26035900CE372D /* Images.xcassets */; };
 		428542301B26035900CE372D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4285422E1B26035900CE372D /* LaunchScreen.xib */; };
 		4285423C1B26035900CE372D /* DropitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4285423B1B26035900CE372D /* DropitTests.swift */; };
+		428542461B26039500CE372D /* DropitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428542451B26039500CE372D /* DropitViewController.swift */; };
+		428542481B26118A00CE372D /* DropitBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428542471B26118A00CE372D /* DropitBehavior.swift */; };
+		4285424A1B261D8900CE372D /* BezierPathsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428542491B261D8900CE372D /* BezierPathsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +31,15 @@
 		428542201B26035900CE372D /* Dropit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		428542241B26035900CE372D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		428542251B26035900CE372D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		428542271B26035900CE372D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4285422A1B26035900CE372D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4285422C1B26035900CE372D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4285422F1B26035900CE372D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		428542351B26035900CE372D /* DropitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4285423A1B26035900CE372D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4285423B1B26035900CE372D /* DropitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropitTests.swift; sourceTree = "<group>"; };
+		428542451B26039500CE372D /* DropitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropitViewController.swift; sourceTree = "<group>"; };
+		428542471B26118A00CE372D /* DropitBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropitBehavior.swift; sourceTree = SOURCE_ROOT; };
+		428542491B261D8900CE372D /* BezierPathsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BezierPathsView.swift; path = ../BezierPathsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +81,10 @@
 		428542221B26035900CE372D /* Dropit */ = {
 			isa = PBXGroup;
 			children = (
-				428542251B26035900CE372D /* AppDelegate.swift */,
-				428542271B26035900CE372D /* ViewController.swift */,
 				428542291B26035900CE372D /* Main.storyboard */,
-				4285422C1B26035900CE372D /* Images.xcassets */,
-				4285422E1B26035900CE372D /* LaunchScreen.xib */,
+				428542471B26118A00CE372D /* DropitBehavior.swift */,
+				428542491B261D8900CE372D /* BezierPathsView.swift */,
+				428542451B26039500CE372D /* DropitViewController.swift */,
 				428542231B26035900CE372D /* Supporting Files */,
 			);
 			path = Dropit;
@@ -90,6 +93,9 @@
 		428542231B26035900CE372D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				428542251B26035900CE372D /* AppDelegate.swift */,
+				4285422C1B26035900CE372D /* Images.xcassets */,
+				4285422E1B26035900CE372D /* LaunchScreen.xib */,
 				428542241B26035900CE372D /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				428542281B26035900CE372D /* ViewController.swift in Sources */,
+				4285424A1B261D8900CE372D /* BezierPathsView.swift in Sources */,
+				428542461B26039500CE372D /* DropitViewController.swift in Sources */,
 				428542261B26035900CE372D /* AppDelegate.swift in Sources */,
+				428542481B26118A00CE372D /* DropitBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
